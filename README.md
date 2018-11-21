@@ -1,6 +1,6 @@
 # The semantics of poetry
 
-This is the repo accompanying the paper "The semantics of poetry: a distributional reading" (Herbelot 2014).  If you use this code, please cite the following:
+This is the repo accompanying the paper "[The semantics of poetry: a distributional reading](https://aurelieherbelot.net/resources/papers/LLC2014_poetry.pdf)" (Herbelot 2014).  If you use this code, please cite the following:
 
 Herbelot, A., 2014. The semantics of poetry: A distributional reading. Digital Scholarship in the Humanities, 30(4), pp.516-531.
 
