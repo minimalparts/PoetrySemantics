@@ -1,4 +1,4 @@
-# PoetrySemantics
+# The semantics of poetry
 
 This is the repo accompanying the paper "The semantics of poetry: a distributional reading" (Herbelot 2014).  If you use this code, please cite the following:
 
@@ -38,4 +38,12 @@ In the vectors/ directory, the user will also find the labels of the vector spac
 
 ## Usage
 
+To replicate results from the paper, use compute_coherence.py over the relevant text. For instance:
 
+    python3 compute_coherence.py data/poems/brooke.processed vectors/bnc.txt
+
+It is also possible to look at shared contexts between word vectors (as in Table 4 of the paper), by running:
+
+    python3 inspect.py vectors/bnc.txt vectors/dimensions.txt
+
+You can change the inspected fragment in the inspect.py file itself.
