@@ -1,8 +1,10 @@
 # PoetrySemantics
 
-This is the repo accompanying the paper "The semantics of poetry: a distributional reading" (Herbelot 2014).
+This is the repo accompanying the paper "The semantics of poetry: a distributional reading" (Herbelot 2014).  If you use this code, please cite the following:
 
-Abstract:
+Herbelot, A., 2014. The semantics of poetry: A distributional reading. Digital Scholarship in the Humanities, 30(4), pp.516-531.
+
+**Abstract:**
 
 Poetry is rarely a focus of linguistic investigation. This is far from surprising,
 as poetic language, especially in modern and contemporary literature, seems to
@@ -25,6 +27,13 @@ distributionally, across different levels of poetic complexity.
 
 ## Data
 
+For copyright reasons, the poetry data is not included in this repository, with the exception of Brooke's *Day that I have loved* (1911) which is now in the public domain. The random and factual texts inspected in Section 3.1 of the paper are also included. This data can be found in the data/ directory, under the relevant subdirectory. The texts have been pre-processed as explained in the paper, keeping only nouns, verbs, adjectives and adverbs.
+
+The BNC vectors used in the paper can be found in vectors/bnc.tar.gz. This file must be untarred before use:
+
+    tar -xzf bnc.tar.gz
+    
+In the vectors/ directory, the user will also find the labels of the vector space's dimensions, in the file dimensions.txt.
 
 
 ## Usage
